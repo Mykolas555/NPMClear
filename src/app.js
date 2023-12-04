@@ -83,10 +83,15 @@ console.log(userOne.getFullUserData());
 userOne.displayUI(userOne.getFullUserData());
 */
 
-import {user} from "./class/User";
+import { User } from "./class/user";
+import { Student } from "./class/student";
 
 const userOne =  new User ('jack', 'Jack@gmail.com');
 userOne.setRole ('admin');
 userOne.setDepartament ('IT');
 console.log(userOne.getFullUserData());
 userOne.displayUI(userOne.getFullUserData());
+
+//kuriam studenta
+const student = new Student('Jack', 'jack@gmail.com','Js')
+console.log(student)

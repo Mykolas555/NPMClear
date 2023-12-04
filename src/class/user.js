@@ -24,16 +24,9 @@ class User{ //object constructor
         ]
     }
     displayUI(userData){
-        //display user data in html list
-        const bodyElement = document.querySelector('body');
-        const displayUL = document.createElement('ul');
-        for (User of userData){
+        for (user of userData){
             
-            const displayLI = document.createElement('li');
         }
-        bodyElement.appendChild(displayUL);
-        displayUL.appendChild(displayLI);
-        
     }
 }
 
