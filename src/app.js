@@ -36,7 +36,7 @@ Person.prototype.greeting= function(){
 */
 
 //pasibaigt namie issivest User
-
+/*
 class User{ //object constructor
     constructor(name, email, role, departament){
         this.name = name;
@@ -75,6 +75,15 @@ class User{ //object constructor
         
     }
 }
+
+const userOne =  new User ('jack', 'Jack@gmail.com');
+userOne.setRole ('admin');
+userOne.setDepartament ('IT');
+console.log(userOne.getFullUserData());
+userOne.displayUI(userOne.getFullUserData());
+*/
+
+import {user} from "./class/User";
 
 const userOne =  new User ('jack', 'Jack@gmail.com');
 userOne.setRole ('admin');
