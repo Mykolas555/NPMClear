@@ -1,3 +1,4 @@
+/*
 const { User } = require("./user");
 //paveldimumas
 class Student extends User{
@@ -13,3 +14,5 @@ class Student extends User{
 module.exports = {
     Student
 }
+
+*/

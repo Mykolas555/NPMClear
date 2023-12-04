@@ -83,6 +83,7 @@ console.log(userOne.getFullUserData());
 userOne.displayUI(userOne.getFullUserData());
 */
 
+/*
 import { User } from "./class/user";
 import { Student } from "./class/student";
 
@@ -95,3 +96,7 @@ userOne.displayUI(userOne.getFullUserData());
 //kuriam studenta
 const student = new Student('Jack', 'jack@gmail.com','Js')
 console.log(student)
+
+*/
+
+import { Products } from "./class/user";

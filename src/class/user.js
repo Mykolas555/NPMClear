@@ -1,3 +1,5 @@
+/*
+
 class User{ //object constructor
     constructor(name, email, role, departament){
         this.name = name;
@@ -25,11 +27,25 @@ class User{ //object constructor
     }
     displayUI(userData){
         for (user of userData){
-            
+
         }
     }
 }
 
 module.exports ={
     User
+}
+
+*/
+
+class Products {
+    constructor(name, price, year){
+        this.name = name;
+        this.price = price;
+        this.year = year;
+    }
+}
+
+module.exports = {
+    Products
 }
